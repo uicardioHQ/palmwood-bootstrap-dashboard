@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Palmwood Bootstrap 4 Dashboard - UICardio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Including UICardio fonts -->
+    <style> 
+    @font-face {
+      font-family: "uicardio-font";
+      src: url("https://demo.uicard.io/palmwood-bootstrap-dashboard/static/fonts/uicardio-light") format('woff');
+      font-weight: 400;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: "uicardio-font";
+      src: url("https://demo.uicard.io/palmwood-bootstrap-dashboard/static/fonts/uicardio-regular") format('woff');
+      font-weight: 500;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: "uicardio-font";
+      src: url("https://demo.uicard.io/palmwood-bootstrap-dashboard/static/fonts/uicardio-bold") format('woff');
+      font-weight: 700;
+      font-display: fallback;
+    }
+    </style>
+    <!-- Compiled CSS of Pinewood Dashboard -->
+    <!-- Include it if you dont want to make any changes in the design -->
+    <!-- Else you can make changes in SCSS files and use them -->
+    <link rel="stylesheet" href="https://demo.uicard.io/palmwood-bootstrap-dashboard/static/css/style.css">
+    <!-- Including icons from Ion Icons -->
+    <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="https://demo.uicard.io/palmwood-bootstrap-dashboard/favicon.png" type="image/x-icon">
+    <!-- Social Meta tags -->
+    <meta name="keywords" content="dashboard, bootstrap 4, bootstarp, pinewood, pinewood dashboard, pinewood bootstrap 4, bootstrap 4 admin panel, bootstrap 4 system, html css template, uicardio, responsive dashboard, responsive bootstrap 4 template">
+    <meta name="description" content="">
+    <!-- Markup for google+ -->
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@uicardio">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:creator" content="@uicardio">
+    <meta name="twitter:image" content="">
+    <!-- Open Graph Data  -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://demo.uicard.io/palmwood-bootstrap-4-admin-dashboard/" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="UICardio" />
+  </head>
+  <body>
+    
+    
+<div class="wrapper">
+  <div class="sidebar p-3">
+  <h3 class="text-center">UICardio</h3>
+  <hr>
+    <ul class="nav nav-pills ">
+        <li class="nav-item ">
+          <a class="nav-link " href="https://demo.uicard.io/palmwood-bootstrap-dashboard//">
+            <i class="icon ion-md-analytics"></i> Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="https://demo.uicard.io/palmwood-bootstrap-dashboard//user.html">
+            <i class="icon ion-md-contact"></i>
+            User Profile
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="https://demo.uicard.io/palmwood-bootstrap-dashboard//tables.html">
+            <i class="icon ion-md-clipboard"></i>
+            Table List
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="https://demo.uicard.io/palmwood-bootstrap-dashboard//typography.html">
+            <i class="icon ion-md-text"></i>
+            Typography
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active shadow-sm" href="https://demo.uicard.io/palmwood-bootstrap-dashboard//icons.html">
+            <i class="icon ion-md-heart"></i>
+            Icons
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="https://demo.uicard.io/palmwood-bootstrap-dashboard//maps.html">
+            <i class="icon ion-md-compass"></i>
+            Maps
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="https://demo.uicard.io/palmwood-bootstrap-dashboard//notifications.html">
+            <i class="icon ion-md-notifications"></i>
+            Notifications
+          </a>
+        </li>
+        
+        
+      </ul>
+</div><div class="main-panel">
+    
+    <div class="header-image" style="background-image: url(https://demo.uicard.io/palmwood-bootstrap-dashboard//static/img/header-background.jpg);"></div>
+    <nav class="navbar navbar-dark navbar-expand sticky-top">
+    
+    <a href="#0" id="sidebarToggle" class="sidebarToggle d-sm-none nav-link pl-0 text-white">
+      
+      <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="40">
+          <path
+                class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path
+                class="line middle" d="m 30,50 h 40" />
+          <path
+                class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        </svg>
+    </a>
+    
+    <a href="#0" id="navSearchButton" class="d-sm-none"><i class="icon ion-md-search"></i></a>
+    <a class="navbar-brand h4" href="#">Icons</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item d-md-block pt-2 mr-3">
+          <input class="searchBar form-control border-0" type="text" class="form-control border-0 search" placeholder="Search">
+        </li>
+        <li class="nav-item">
+          <div class="dropdown ">
+            <a href="" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="icon ion-md-notifications"></i> 
+            </a>
+            <div style="width:400px"  class="dropdown-menu pb-0 dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+              <h6 class="dropdown-header px-3 pb-3">
+                <a class="float-right" href="#0">Mark all Read!</a>
+                You have 13 notifications!
+              </h6>
+                <a class="list-group-item border-0 list-group-item-action py-2" href="#">
+                  <div class="row">
+                    <div class="col-2">
+                      <img width="40px" alt="Image placeholder" src="https://demo.uicard.io/palmwood-bootstrap-dashboard/static/img/avatars/girl.jpg" class="avatar rounded-circle">
+                    </div>
+                  <div class="col-10">
+                    <div class="text-sm text-secondary mb-0 d-block"><strong>Noelle East</strong> Let's meet at Starbucks at 11:30. Wdyt?</div>
+                      <small class="text-muted">Just Now</small>
+                    </div>      
+                  </div>
+                </a>
+                <a class="list-group-item border-0 list-group-item-action py-2" href="#">
+                  <div class="row">
+                    <div class="col-2">
+                      <img width="40px" alt="Image placeholder" src="https://demo.uicard.io/palmwood-bootstrap-dashboard/static/img/avatars/man.jpg" class="avatar rounded-circle">
+                    </div>
+                    <div class="col-10">
+                      <div class="text-sm text-secondary mb-0 d-block"><strong>Mark</strong> just commented on one of your post
+                      </div>
+                      <small class="text-muted">2 hrs ago</small>
+                    </div>      
+                  </div>
+                </a>
+                <a href="#0" class="dropdown-item text-center border-top text-primary p-3 bg-light">View All Notifications</a>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item">
+         
+            <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img width="40px" class="rounded-circle" src="https://demo.uicard.io/palmwood-bootstrap-dashboard/static/img/avatars/girl.jpg" alt="">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+        </li>
+      </ul>
+  </nav><div class="content">
+<div class="card">
+  <div class="card-header">
+    <a target="_blank" href="https://ionicons.com/" class="btn btn-success float-right">View All Icons <i class="icon ion-md-share-alt"></i></a>
+    <h3 class="m-0">Icons</h3>
+    <p class="text-muted">All the icons are provided by <a href="https://ionicons.com/">ionicons</a></p>
+  </div>
+  <div class="card-body text-center text-secondary">
+
+    <!-- All the icons are provided by ionicons -->
+
+    <div class="icon-results"><span class="icon-results__cell mouseOff"><i class="ion ion-md-add-circle-outline"></i></span><span class="icon-results__cell mouseOff"><i class="ion ion-md-add-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-add"></i></span><span class="icon-results__cell mouseOff"><i class="ion ion-md-airplane"></i></span><span class="icon-results__cell mouseOff"><i class="ion ion-md-alarm"></i></span><span class="icon-results__cell mouseOff"><i class="ion ion-md-albums"></i></span><span class="icon-results__cell"><i class="ion ion-md-alert"></i></span><span class="icon-results__cell"><i class="ion ion-md-american-football"></i></span><span class="icon-results__cell mouseOff"><i class="ion ion-md-analytics"></i></span><span class="icon-results__cell"><i class="ion ion-md-aperture"></i></span><span class="icon-results__cell"><i class="ion ion-md-apps"></i></span><span class="icon-results__cell"><i class="ion ion-md-appstore"></i></span><span class="icon-results__cell"><i class="ion ion-md-archive"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-back"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-down"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-dropdown-circle"></i></span><span class="icon-results__cell mouseOff"><i class="ion ion-md-arrow-dropdown"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-dropleft-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-dropleft"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-dropright-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-dropright"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-dropup-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-dropup"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-forward"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-round-back"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-round-down"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-round-forward"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-round-up"></i></span><span class="icon-results__cell"><i class="ion ion-md-arrow-up"></i></span><span class="icon-results__cell"><i class="ion ion-md-at"></i></span><span class="icon-results__cell"><i class="ion ion-md-attach"></i></span><span class="icon-results__cell"><i class="ion ion-md-backspace"></i></span><span class="icon-results__cell"><i class="ion ion-md-barcode"></i></span><span class="icon-results__cell"><i class="ion ion-md-baseball"></i></span><span class="icon-results__cell"><i class="ion ion-md-basket"></i></span><span class="icon-results__cell"><i class="ion ion-md-basketball"></i></span><span class="icon-results__cell"><i class="ion ion-md-battery-charging"></i></span><span class="icon-results__cell"><i class="ion ion-md-battery-dead"></i></span><span class="icon-results__cell"><i class="ion ion-md-battery-full"></i></span><span class="icon-results__cell"><i class="ion ion-md-beaker"></i></span><span class="icon-results__cell"><i class="ion ion-md-bed"></i></span><span class="icon-results__cell"><i class="ion ion-md-beer"></i></span><span class="icon-results__cell"><i class="ion ion-md-bicycle"></i></span><span class="icon-results__cell"><i class="ion ion-md-bluetooth"></i></span><span class="icon-results__cell"><i class="ion ion-md-boat"></i></span><span class="icon-results__cell"><i class="ion ion-md-body"></i></span><span class="icon-results__cell"><i class="ion ion-md-bonfire"></i></span><span class="icon-results__cell"><i class="ion ion-md-book"></i></span><span class="icon-results__cell"><i class="ion ion-md-bookmark"></i></span><span class="icon-results__cell"><i class="ion ion-md-bookmarks"></i></span><span class="icon-results__cell"><i class="ion ion-md-bowtie"></i></span><span class="icon-results__cell"><i class="ion ion-md-briefcase"></i></span><span class="icon-results__cell"><i class="ion ion-md-browsers"></i></span><span class="icon-results__cell"><i class="ion ion-md-brush"></i></span><span class="icon-results__cell"><i class="ion ion-md-bug"></i></span><span class="icon-results__cell"><i class="ion ion-md-build"></i></span><span class="icon-results__cell"><i class="ion ion-md-bulb"></i></span><span class="icon-results__cell"><i class="ion ion-md-bus"></i></span><span class="icon-results__cell"><i class="ion ion-md-business"></i></span><span class="icon-results__cell"><i class="ion ion-md-cafe"></i></span><span class="icon-results__cell"><i class="ion ion-md-calculator"></i></span><span class="icon-results__cell"><i class="ion ion-md-calendar"></i></span><span class="icon-results__cell"><i class="ion ion-md-call"></i></span><span class="icon-results__cell"><i class="ion ion-md-camera"></i></span><span class="icon-results__cell"><i class="ion ion-md-car"></i></span><span class="icon-results__cell"><i class="ion ion-md-card"></i></span><span class="icon-results__cell"><i class="ion ion-md-cart"></i></span><span class="icon-results__cell"><i class="ion ion-md-cash"></i></span><span class="icon-results__cell"><i class="ion ion-md-cellular"></i></span><span class="icon-results__cell"><i class="ion ion-md-chatboxes"></i></span><span class="icon-results__cell"><i class="ion ion-md-chatbubbles"></i></span><span class="icon-results__cell"><i class="ion ion-md-checkbox-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-checkbox"></i></span><span class="icon-results__cell"><i class="ion ion-md-checkmark-circle-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-checkmark-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-checkmark"></i></span><span class="icon-results__cell"><i class="ion ion-md-clipboard"></i></span><span class="icon-results__cell"><i class="ion ion-md-clock"></i></span><span class="icon-results__cell"><i class="ion ion-md-close-circle-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-close-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-close"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloud-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloud-done"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloud-download"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloud-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloud-upload"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloud"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloudy-night"></i></span><span class="icon-results__cell"><i class="ion ion-md-cloudy"></i></span><span class="icon-results__cell"><i class="ion ion-md-code-download"></i></span><span class="icon-results__cell"><i class="ion ion-md-code-working"></i></span><span class="icon-results__cell"><i class="ion ion-md-code"></i></span><span class="icon-results__cell"><i class="ion ion-md-cog"></i></span><span class="icon-results__cell"><i class="ion ion-md-color-fill"></i></span><span class="icon-results__cell"><i class="ion ion-md-color-filter"></i></span><span class="icon-results__cell"><i class="ion ion-md-color-palette"></i></span><span class="icon-results__cell"><i class="ion ion-md-color-wand"></i></span><span class="icon-results__cell"><i class="ion ion-md-compass"></i></span><span class="icon-results__cell"><i class="ion ion-md-construct"></i></span><span class="icon-results__cell"><i class="ion ion-md-contact"></i></span><span class="icon-results__cell"><i class="ion ion-md-contacts"></i></span><span class="icon-results__cell"><i class="ion ion-md-contract"></i></span><span class="icon-results__cell"><i class="ion ion-md-contrast"></i></span><span class="icon-results__cell"><i class="ion ion-md-copy"></i></span><span class="icon-results__cell"><i class="ion ion-md-create"></i></span><span class="icon-results__cell"><i class="ion ion-md-crop"></i></span><span class="icon-results__cell"><i class="ion ion-md-cube"></i></span><span class="icon-results__cell"><i class="ion ion-md-cut"></i></span><span class="icon-results__cell"><i class="ion ion-md-desktop"></i></span><span class="icon-results__cell"><i class="ion ion-md-disc"></i></span><span class="icon-results__cell"><i class="ion ion-md-document"></i></span><span class="icon-results__cell"><i class="ion ion-md-done-all"></i></span><span class="icon-results__cell"><i class="ion ion-md-download"></i></span><span class="icon-results__cell"><i class="ion ion-md-easel"></i></span><span class="icon-results__cell"><i class="ion ion-md-egg"></i></span><span class="icon-results__cell"><i class="ion ion-md-exit"></i></span><span class="icon-results__cell"><i class="ion ion-md-expand"></i></span><span class="icon-results__cell"><i class="ion ion-md-eye-off"></i></span><span class="icon-results__cell"><i class="ion ion-md-eye"></i></span><span class="icon-results__cell"><i class="ion ion-md-fastforward"></i></span><span class="icon-results__cell"><i class="ion ion-md-female"></i></span><span class="icon-results__cell"><i class="ion ion-md-filing"></i></span><span class="icon-results__cell"><i class="ion ion-md-film"></i></span><span class="icon-results__cell"><i class="ion ion-md-finger-print"></i></span><span class="icon-results__cell"><i class="ion ion-md-fitness"></i></span><span class="icon-results__cell"><i class="ion ion-md-flag"></i></span><span class="icon-results__cell"><i class="ion ion-md-flame"></i></span><span class="icon-results__cell"><i class="ion ion-md-flash-off"></i></span><span class="icon-results__cell"><i class="ion ion-md-flash"></i></span><span class="icon-results__cell"><i class="ion ion-md-flashlight"></i></span><span class="icon-results__cell"><i class="ion ion-md-flask"></i></span><span class="icon-results__cell"><i class="ion ion-md-flower"></i></span><span class="icon-results__cell"><i class="ion ion-md-folder-open"></i></span><span class="icon-results__cell"><i class="ion ion-md-folder"></i></span><span class="icon-results__cell"><i class="ion ion-md-football"></i></span><span class="icon-results__cell"><i class="ion ion-md-funnel"></i></span><span class="icon-results__cell"><i class="ion ion-md-gift"></i></span><span class="icon-results__cell"><i class="ion ion-md-git-branch"></i></span><span class="icon-results__cell"><i class="ion ion-md-git-commit"></i></span><span class="icon-results__cell"><i class="ion ion-md-git-compare"></i></span><span class="icon-results__cell"><i class="ion ion-md-git-merge"></i></span><span class="icon-results__cell"><i class="ion ion-md-git-network"></i></span><span class="icon-results__cell"><i class="ion ion-md-git-pull-request"></i></span><span class="icon-results__cell"><i class="ion ion-md-glasses"></i></span><span class="icon-results__cell"><i class="ion ion-md-globe"></i></span><span class="icon-results__cell"><i class="ion ion-md-grid"></i></span><span class="icon-results__cell"><i class="ion ion-md-hammer"></i></span><span class="icon-results__cell"><i class="ion ion-md-hand"></i></span><span class="icon-results__cell"><i class="ion ion-md-happy"></i></span><span class="icon-results__cell"><i class="ion ion-md-headset"></i></span><span class="icon-results__cell"><i class="ion ion-md-heart"></i></span><span class="icon-results__cell"><i class="ion ion-md-heart-dislike"></i></span><span class="icon-results__cell"><i class="ion ion-md-heart-empty"></i></span><span class="icon-results__cell"><i class="ion ion-md-heart-half"></i></span><span class="icon-results__cell"><i class="ion ion-md-help-buoy"></i></span><span class="icon-results__cell"><i class="ion ion-md-help-circle-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-help-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-help"></i></span><span class="icon-results__cell"><i class="ion ion-md-home"></i></span><span class="icon-results__cell"><i class="ion ion-md-hourglass"></i></span><span class="icon-results__cell"><i class="ion ion-md-ice-cream"></i></span><span class="icon-results__cell"><i class="ion ion-md-image"></i></span><span class="icon-results__cell active"><i class="ion ion-md-images"></i></span><span class="icon-results__cell"><i class="ion ion-md-infinite"></i></span><span class="icon-results__cell"><i class="ion ion-md-information-circle-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-information-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-information"></i></span><span class="icon-results__cell"><i class="ion ion-md-jet"></i></span><span class="icon-results__cell"><i class="ion ion-md-journal"></i></span><span class="icon-results__cell"><i class="ion ion-md-key"></i></span><span class="icon-results__cell"><i class="ion ion-md-keypad"></i></span><span class="icon-results__cell"><i class="ion ion-md-laptop"></i></span><span class="icon-results__cell"><i class="ion ion-md-leaf"></i></span><span class="icon-results__cell"><i class="ion ion-md-link"></i></span><span class="icon-results__cell"><i class="ion ion-md-list-box"></i></span><span class="icon-results__cell"><i class="ion ion-md-list"></i></span><span class="icon-results__cell"><i class="ion ion-md-locate"></i></span><span class="icon-results__cell"><i class="ion ion-md-lock"></i></span><span class="icon-results__cell"><i class="ion ion-md-log-in"></i></span><span class="icon-results__cell"><i class="ion ion-md-log-out"></i></span><span class="icon-results__cell"><i class="ion ion-md-magnet"></i></span><span class="icon-results__cell"><i class="ion ion-md-mail-open"></i></span><span class="icon-results__cell"><i class="ion ion-md-mail-unread"></i></span><span class="icon-results__cell"><i class="ion ion-md-mail"></i></span><span class="icon-results__cell"><i class="ion ion-md-male"></i></span><span class="icon-results__cell"><i class="ion ion-md-man"></i></span><span class="icon-results__cell"><i class="ion ion-md-map"></i></span><span class="icon-results__cell"><i class="ion ion-md-medal"></i></span><span class="icon-results__cell"><i class="ion ion-md-medical"></i></span><span class="icon-results__cell"><i class="ion ion-md-medkit"></i></span><span class="icon-results__cell"><i class="ion ion-md-megaphone"></i></span><span class="icon-results__cell"><i class="ion ion-md-menu"></i></span><span class="icon-results__cell"><i class="ion ion-md-mic-off"></i></span><span class="icon-results__cell"><i class="ion ion-md-mic"></i></span><span class="icon-results__cell"><i class="ion ion-md-microphone"></i></span><span class="icon-results__cell"><i class="ion ion-md-moon"></i></span><span class="icon-results__cell"><i class="ion ion-md-more"></i></span><span class="icon-results__cell"><i class="ion ion-md-move"></i></span><span class="icon-results__cell"><i class="ion ion-md-musical-note"></i></span><span class="icon-results__cell"><i class="ion ion-md-musical-notes"></i></span><span class="icon-results__cell"><i class="ion ion-md-navigate"></i></span><span class="icon-results__cell"><i class="ion ion-md-notifications-off"></i></span><span class="icon-results__cell"><i class="ion ion-md-notifications-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-notifications"></i></span><span class="icon-results__cell"><i class="ion ion-md-nuclear"></i></span><span class="icon-results__cell"><i class="ion ion-md-nutrition"></i></span><span class="icon-results__cell"><i class="ion ion-md-open"></i></span><span class="icon-results__cell"><i class="ion ion-md-options"></i></span><span class="icon-results__cell"><i class="ion ion-md-outlet"></i></span><span class="icon-results__cell"><i class="ion ion-md-paper-plane"></i></span><span class="icon-results__cell"><i class="ion ion-md-paper"></i></span><span class="icon-results__cell"><i class="ion ion-md-partly-sunny"></i></span><span class="icon-results__cell"><i class="ion ion-md-pause"></i></span><span class="icon-results__cell"><i class="ion ion-md-paw"></i></span><span class="icon-results__cell"><i class="ion ion-md-people"></i></span><span class="icon-results__cell"><i class="ion ion-md-person-add"></i></span><span class="icon-results__cell"><i class="ion ion-md-person"></i></span><span class="icon-results__cell"><i class="ion ion-md-phone-landscape"></i></span><span class="icon-results__cell"><i class="ion ion-md-phone-portrait"></i></span><span class="icon-results__cell"><i class="ion ion-md-photos"></i></span><span class="icon-results__cell"><i class="ion ion-md-pie"></i></span><span class="icon-results__cell"><i class="ion ion-md-pin"></i></span><span class="icon-results__cell"><i class="ion ion-md-pint"></i></span><span class="icon-results__cell"><i class="ion ion-md-pizza"></i></span><span class="icon-results__cell"><i class="ion ion-md-planet"></i></span><span class="icon-results__cell"><i class="ion ion-md-play-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-play"></i></span><span class="icon-results__cell"><i class="ion ion-md-podium"></i></span><span class="icon-results__cell"><i class="ion ion-md-power"></i></span><span class="icon-results__cell"><i class="ion ion-md-pricetag"></i></span><span class="icon-results__cell"><i class="ion ion-md-pricetags"></i></span><span class="icon-results__cell"><i class="ion ion-md-print"></i></span><span class="icon-results__cell"><i class="ion ion-md-pulse"></i></span><span class="icon-results__cell"><i class="ion ion-md-qr-scanner"></i></span><span class="icon-results__cell"><i class="ion ion-md-quote"></i></span><span class="icon-results__cell"><i class="ion ion-md-radio-button-off"></i></span><span class="icon-results__cell"><i class="ion ion-md-radio-button-on"></i></span><span class="icon-results__cell"><i class="ion ion-md-radio"></i></span><span class="icon-results__cell"><i class="ion ion-md-rainy"></i></span><span class="icon-results__cell"><i class="ion ion-md-recording"></i></span><span class="icon-results__cell"><i class="ion ion-md-redo"></i></span><span class="icon-results__cell"><i class="ion ion-md-refresh-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-refresh"></i></span><span class="icon-results__cell"><i class="ion ion-md-remove-circle-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-remove-circle"></i></span><span class="icon-results__cell"><i class="ion ion-md-remove"></i></span><span class="icon-results__cell"><i class="ion ion-md-reorder"></i></span><span class="icon-results__cell"><i class="ion ion-md-repeat"></i></span><span class="icon-results__cell"><i class="ion ion-md-resize"></i></span><span class="icon-results__cell"><i class="ion ion-md-restaurant"></i></span><span class="icon-results__cell"><i class="ion ion-md-return-left"></i></span><span class="icon-results__cell"><i class="ion ion-md-return-right"></i></span><span class="icon-results__cell"><i class="ion ion-md-reverse-camera"></i></span><span class="icon-results__cell"><i class="ion ion-md-rewind"></i></span><span class="icon-results__cell"><i class="ion ion-md-ribbon"></i></span><span class="icon-results__cell"><i class="ion ion-md-rocket"></i></span><span class="icon-results__cell"><i class="ion ion-md-rose"></i></span><span class="icon-results__cell"><i class="ion ion-md-sad"></i></span><span class="icon-results__cell"><i class="ion ion-md-save"></i></span><span class="icon-results__cell"><i class="ion ion-md-school"></i></span><span class="icon-results__cell"><i class="ion ion-md-search"></i></span><span class="icon-results__cell"><i class="ion ion-md-send"></i></span><span class="icon-results__cell"><i class="ion ion-md-settings"></i></span><span class="icon-results__cell"><i class="ion ion-md-share-alt"></i></span><span class="icon-results__cell"><i class="ion ion-md-share"></i></span><span class="icon-results__cell"><i class="ion ion-md-shirt"></i></span><span class="icon-results__cell"><i class="ion ion-md-shuffle"></i></span><span class="icon-results__cell"><i class="ion ion-md-skip-backward"></i></span><span class="icon-results__cell"><i class="ion ion-md-skip-forward"></i></span><span class="icon-results__cell"><i class="ion ion-md-snow"></i></span><span class="icon-results__cell"><i class="ion ion-md-speedometer"></i></span><span class="icon-results__cell"><i class="ion ion-md-square-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-square"></i></span><span class="icon-results__cell"><i class="ion ion-md-star-half"></i></span><span class="icon-results__cell"><i class="ion ion-md-star-outline"></i></span><span class="icon-results__cell"><i class="ion ion-md-star"></i></span><span class="icon-results__cell"><i class="ion ion-md-stats"></i></span><span class="icon-results__cell"><i class="ion ion-md-stopwatch"></i></span><span class="icon-results__cell"><i class="ion ion-md-subway"></i></span><span class="icon-results__cell"><i class="ion ion-md-sunny"></i></span><span class="icon-results__cell"><i class="ion ion-md-swap"></i></span><span class="icon-results__cell"><i class="ion ion-md-switch"></i></span><span class="icon-results__cell"><i class="ion ion-md-sync"></i></span><span class="icon-results__cell"><i class="ion ion-md-tablet-landscape"></i></span><span class="icon-results__cell"><i class="ion ion-md-tablet-portrait"></i></span><span class="icon-results__cell"><i class="ion ion-md-tennisball"></i></span><span class="icon-results__cell"><i class="ion ion-md-text"></i></span><span class="icon-results__cell"><i class="ion ion-md-thermometer"></i></span><span class="icon-results__cell"><i class="ion ion-md-thumbs-down"></i></span><span class="icon-results__cell"><i class="ion ion-md-thumbs-up"></i></span><span class="icon-results__cell"><i class="ion ion-md-thunderstorm"></i></span><span class="icon-results__cell"><i class="ion ion-md-time"></i></span><span class="icon-results__cell"><i class="ion ion-md-timer"></i></span><span class="icon-results__cell"><i class="ion ion-md-today"></i></span><span class="icon-results__cell"><i class="ion ion-md-train"></i></span><span class="icon-results__cell"><i class="ion ion-md-transgender"></i></span><span class="icon-results__cell"><i class="ion ion-md-trash"></i></span><span class="icon-results__cell"><i class="ion ion-md-trending-down"></i></span><span class="icon-results__cell"><i class="ion ion-md-trending-up"></i></span><span class="icon-results__cell"><i class="ion ion-md-trophy"></i></span><span class="icon-results__cell"><i class="ion ion-md-tv"></i></span><span class="icon-results__cell"><i class="ion ion-md-umbrella"></i></span><span class="icon-results__cell"><i class="ion ion-md-undo"></i></span><span class="icon-results__cell"><i class="ion ion-md-unlock"></i></span><span class="icon-results__cell"><i class="ion ion-md-videocam"></i></span><span class="icon-results__cell"><i class="ion ion-md-volume-high"></i></span><span class="icon-results__cell"><i class="ion ion-md-volume-low"></i></span><span class="icon-results__cell"><i class="ion ion-md-volume-mute"></i></span><span class="icon-results__cell"><i class="ion ion-md-volume-off"></i></span><span class="icon-results__cell"><i class="ion ion-md-wallet"></i></span><span class="icon-results__cell"><i class="ion ion-md-walk"></i></span><span class="icon-results__cell"><i class="ion ion-md-warning"></i></span><span class="icon-results__cell"><i class="ion ion-md-watch"></i></span><span class="icon-results__cell"><i class="ion ion-md-water"></i></span><span class="icon-results__cell"><i class="ion ion-md-wifi"></i></span><span class="icon-results__cell"><i class="ion ion-md-wine"></i></span><span class="icon-results__cell"><i class="ion ion-md-woman"></i></span></div>
+  </div>
+</div></div>
+    <div class="row no-gutters m-3  align-items-center justify-content-lg-between">
+  <div class="col-lg-6">
+    <div class="copyright text-center text-lg-left text-muted">
+      © 2019 UICardio
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="nav nav-footer justify-content-center justify-content-lg-end">
+      <a class="ml-3" target="_blank" href="https://uicard.io/?utm_source=pinewood-bootstrap-4-dashboard">UICardio</a>
+      <a class="ml-3" target="_blank" href="https://uicard.io/blog/?utm_source=pinewood-bootstrap-4-dashboard">Blog</a>
+      <a class="ml-3" target="_blank" href="https://uicard.io/licence/?utm_source=pinewood-bootstrap-4-dashboard">Licence</a>
+      <a class="ml-3" target="_blank" href="https://uicard.io/contact/?utm_source=pinewood-bootstrap-4-dashboard">Contact</a>
+    </div>
+  </div>
+</div>
+</div>
+</div><!-- Including scripts required for bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <!-- Including ChartJs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+  <!-- Including our main script -->
+  <script src="https://demo.uicard.io/palmwood-bootstrap-dashboard/static/js/scripts.js"></script>
+  <script>
+    
+  var canvas = document.getElementById("canvas");
+
+  
+  var multiply = {
+    beforeDatasetsDraw: function(chart, options, el) {
+      chart.ctx.globalCompositeOperation = 'overlay';
+      
+    },
+    afterDatasetsDraw: function(chart, options) {
+      chart.ctx.globalCompositeOperation = 'source-over';
+    },
+  };
+
+    
+    var gradientThisWeek = canvas.getContext('2d').createLinearGradient(0, 0, 0, 180);
+    gradientThisWeek.addColorStop(0, '#f8d0a3');
+    gradientThisWeek.addColorStop(1, '#f8d0a3');
+
+    
+    var gradientPrevWeek = canvas.getContext('2d').createLinearGradient(0, 0, 0, 180);
+    gradientPrevWeek.addColorStop(0, '#ed7170');
+    gradientPrevWeek.addColorStop(1, '#ed7170');
+
+
+    var config = {
+        type: 'line',
+        data: {
+            labels: ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN", "Yo", "Yo", "Yo"],
+            datasets: [
+              {
+                  label: 'This week',
+                  data: [24, 18, 16, 18, 24, 36, 28, 29,23,24],
+                  backgroundColor: gradientThisWeek,
+                  borderColor: 'transparent',
+                  pointBackgroundColor: '#FFFFFF',
+                  pointBorderColor: '#FFFFFF',
+                  lineTension: 0.40,
+              },
+              {
+                  label: 'Previous week',
+                  data: [20, 22, 30, 22, 18, 22, 30, 49,43,14],
+                  backgroundColor: gradientPrevWeek,
+                  borderColor: 'transparent',
+                  pointBackgroundColor: '#FFFFFF',
+                  pointBorderColor: '#FFFFFF',
+                  lineTension: 0.40,
+              }
+            ]
+        },
+        options: {
+            elements: { 
+              point: {
+                radius: 2,
+                hitRadius: 5, 
+                hoverRadius: 5 
+              } 
+            },
+            legend: {
+                display: false,
+            },
+            scales: {
+                xAxes: [{
+                    display: false,
+                }],
+                yAxes: [{
+                    display: false,
+                    ticks: {
+                      beginAtZero: true,
+                    },
+                }]
+            }
+        },
+        plugins: [multiply],
+    };
+
+    window.chart = new Chart(canvas, config);
+
+    new Chart(document.getElementById("pie-chart"), {
+    type: 'pie',
+    data: {
+      labels: ["Africa", "Asia"],
+      datasets: [{
+        label: "Population (millions)",
+        backgroundColor: ["#4e817a", "#f7d6a3"],
+        data: [2478,5267]
+      }]
+    },
+    options: {
+      layout: {
+        padding: {
+          top: 0
+        }
+      },  
+      legend: {
+        display: true,
+        position: 'bottom'
+      },  
+      title: {
+        display: false,
+        text: ''
+      }
+    }
+});
+  </script>
+  </body>
+</html>

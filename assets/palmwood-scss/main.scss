@@ -1,0 +1,20 @@
+*{
+  // outline: solid 1px red;
+}
+
+@import "variables.scss";
+@import "main.scss";
+@import "buttons.scss";
+@import "card.scss";
+@import "forms.scss";
+@import "widget.scss";
+@import "sidebar.scss";
+@import "notifications.scss";
+@import "utlities/text.scss";
+@import "mobile.scss";
+@import "dropdown.scss";
+@import "toggleButton.scss";
+@import "navbar.scss";
+
+
+@import "../scss/bootstrap.scss";

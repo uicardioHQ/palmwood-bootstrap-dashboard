@@ -1,0 +1,39 @@
+.dropdown-menu{
+  //extend .shadow-sm;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 64px rgba(0,0,0,0.2) !important;
+  transform: scale(0.9) translateY(20px);
+  opacity: 0;
+
+  &.show{
+    animation: show-dropdown-menu .25s ease forwards;
+  }
+}
+
+@keyframes show-dropdown-menu {
+  0% {
+    transition: visibility .25s,opacity .25s,transform .25s;
+    transform: translate(0,10px) perspective(200px);
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, "sm")) {
+  @keyframes show-dropdown-menu {
+    0% {
+      transition: visibility .25s,opacity .25s,transform .25s;
+      transform: translate(-50%,10px) perspective(200px);
+      opacity: 0;
+      display: none;
+    }
+    100% {
+      transform: translate(-50%,0);
+      opacity: 1;
+    }
+  }
+}

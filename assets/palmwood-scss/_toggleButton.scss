@@ -1,0 +1,41 @@
+.check {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.checkToggle {
+  position: relative;
+  display: block;
+  font-size: 0;
+  width: 48px;
+  height: 24px;
+  background-color: lighten($secondary, 40%);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.checkToggle::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(5px, -50%);
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: left 300ms ease, transform 300ms ease;
+}
+.check:checked + .checkToggle {
+  background-color: $success;
+}
+.check:checked + .checkToggle::after {
+  left: 100%;
+  transform: translate(calc(-100% - 5px), -50%);
+}

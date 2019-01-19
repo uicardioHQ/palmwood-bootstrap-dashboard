@@ -1,0 +1,24 @@
+.sidebar{
+  z-index: 2000;
+  overflow: scroll;
+
+  .nav{
+    display: block;
+    
+    .nav-item{
+      a.nav-link{
+        color: rgba(0,0,0,0.6);
+
+        i{
+          vertical-align: middle;
+          font-size: 22px;
+          margin-right: 10px;
+        }
+
+        &.active{
+          color: #fff;
+        }
+      }
+    }
+  }
+}

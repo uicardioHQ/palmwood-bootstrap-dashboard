@@ -1,0 +1,18 @@
+.btn{
+
+  @extend .shadow-sm;
+
+  &.btn-circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    color: #ededed;
+    border: solid 1px #ededed;
+  }
+
+  i {
+    vertical-align: middle;
+    font-size: 16px !important;
+  }
+}

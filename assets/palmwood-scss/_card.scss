@@ -1,0 +1,29 @@
+.card{
+  // border: none;
+  border: solid 1px #ededed;
+  @extend .shadow-sm;
+  @extend .mb-3;
+
+  .card-header{
+    background-color: $card-cap-bg;
+    border-bottom: none;
+    @extend .pt-3;
+  }
+
+  .text-muted{
+    color: rgba(0,0,0,0.5);
+  }
+
+  &.bg-secondary{
+    .text-muted{
+      color: rgba(255,255,255,0.5) !important;
+    }
+  }
+}
+
+@media (max-width:map-get($grid-breakpoints, "sm")){
+  .card-body{
+    overflow-x: scroll;
+    overflow-y: visible;
+  }
+}

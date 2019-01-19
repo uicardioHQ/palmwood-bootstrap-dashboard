@@ -1,0 +1,53 @@
+// Importing fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'uicardio-font', sans-serif !important;
+  font-weight: 700;
+
+}
+
+$font-family-sans-serif:  'uicardio-font','Open Sans', sans-serif;
+// Gradients
+$green-1 : #95e28a;
+$green-2 : #0fb7bd;
+
+//Colors
+$primary: #51394f;
+$secondary: #425669;
+$success : #30c974;
+$danger: #f04352;
+$warning: #febc00;
+$info : #84e2f8;
+
+$border-radius: 8px;
+
+// Card
+$card-cap-bg: #fff;
+$card-border-width: 0px;
+
+//Forms
+// $input-border-width: 0px;
+
+//
+// $component-active-bg: linear-gradient(45deg, #007adf 0%,#00ecbc 100%);
+$component-active-bg: $primary;
+
+$table-accent-bg: lighten($secondary, 65%);
+$table-hover-bg: lighten($primary, 70%);
+
+$dropdown-border-width: 0px;
+$navbar-dark-color: rgba(255,255,255,1);
+
+$enable-shadows: true;
+
+$dropdown-padding-y: 10px;
+
+$grid-breakpoints: 
+  (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+  );

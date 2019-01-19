@@ -1,0 +1,25 @@
+.widget{
+  .widget-info{
+    position: relative;
+    height: 22px;
+    overflow: hidden;
+
+    .widget-stat{
+      i{
+        font-size: 16px;
+      }
+    }
+    
+    span{
+      display: block;
+      animation: change 12s infinite ease-in-out;
+    }
+  }
+}
+
+@keyframes change {
+  0%, 10% {transform:translate3d(0,0,0);}
+  10%, 40% {transform:translate3d(0,-22px,0);}
+  50%, 60% {transform:translate3d(0,0,0);}
+  // 100% {transform:translate3d(0,0,0);}
+}

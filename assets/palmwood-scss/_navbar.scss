@@ -1,0 +1,63 @@
+.navbar{
+  transition: all 0.3s ease;
+
+  &.navbar-dark{
+    a > .icon,
+    svg > .line{
+      color: #fff;
+      stroke: #fff;
+    }
+  }
+
+  &.navbar-light{
+    a > .icon,
+    svg > .line{
+      color: rgba(0,0,0,0.5);
+      stroke: rgba(0,0,0,0.5);
+    }
+  }
+
+  &.navbar-light{
+    .searchBar{
+      background-color: #ededed;
+      opacity: 1;
+      z-index: 10;
+    }
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, "sm")) {
+  nav{
+
+    .searchBar{
+      position: absolute;
+      top: 10px;
+      // display: none;
+      width: calc(100% - 80px);
+      right: 12px;
+      opacity: 0;
+      transform: translateY(-80px);
+      transition: all 0.3s ease;
+
+      &.active{
+        // display: block;
+        transform: translateY(5px);
+        opacity: 1;
+      }
+    }
+    .navbar-brand{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .navbar-nav{
+      .dropdown-menu{
+        position: fixed !important;
+        width: calc(100% - 10px) !important;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}

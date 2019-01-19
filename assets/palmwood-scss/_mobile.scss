@@ -1,0 +1,19 @@
+@media (max-width: map-get($grid-breakpoints, "sm")) {
+  .sidebar{
+    transition: all 0.3s ease;
+    left: -300px;
+    position: absolute;
+
+    &.active{
+      left: 0px;
+    }
+  }
+  .wrapper{
+    .main-panel{
+      width: 100%;
+    }
+  }
+  .body-gradient{
+    left: 0px !important;
+  }
+}

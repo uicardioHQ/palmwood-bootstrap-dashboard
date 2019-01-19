@@ -1,0 +1,98 @@
+body{
+  background-color: #fafafa !important;
+  font-family: $font-family-sans-serif !important;
+  overflow: hidden;
+}
+
+i.icon{
+  font-size: 26px;
+}
+
+.header-image{
+  position: absolute;
+  height: 200px;
+  z-index: -1;
+  top: 0; left: 0px; right: 0;
+  background-size: cover;
+  background-position: center;
+
+  &::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgba(0,0,0,0.4);
+  }
+}
+
+
+.sidebar{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+  z-index: 2;
+  width: 260px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f3645+0,1f2631+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#95e28a+0,1ab8bc+100 */
+background: #fff; /* Old browsers */
+  //box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.main-panel{
+  position: relative;
+  float: right;
+  width: calc(100% - 260px);
+  transition: .33s,cubic-bezier(.685,.0473,.346,1);
+  overflow: scroll;
+  height: 100vh;
+
+  .content{
+    margin-top: 0px;
+    padding: 30px 15px 0 15px;
+    min-height: calc(100vh - 400px);
+  }
+}
+
+ .icon-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(70px,1fr));
+  grid-auto-rows: minmax(70px,auto);
+  grid-gap: .5em;
+  font-size: 38px;
+}
+
+nav{
+  .search{
+    opacity: 0.3;
+    transition: all 0.3s ease;
+
+    &:focus{
+      opacity: 1;
+    }
+  }
+}
+
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#fff;
+  stroke-width:4.5;
+  stroke-linecap:round;
+}
+.ham1 .top {
+  stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+  stroke-dasharray: 40 180;
+}
+.ham1.active .top {
+  stroke-dashoffset: -98px;
+}
+.ham1.active .bottom {
+  stroke-dashoffset: -138px;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
